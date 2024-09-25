@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Logo de la aplicación -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_whatsapp_logo"
+        android:contentDescription="@string/app_logo"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Campo para número de teléfono -->
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de teléfono"
+        android:inputType="phone"
+        android:drawableRight="@drawable/ic_phone"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para contraseña -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_lock"
+        android:drawablePadding="8dp"
+        android:padding="10dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botón para iniciar sesión -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:backgroundTint="@color/whatsapp_green"
+        android:textColor="@android:color/white"
+        android:padding="12dp"/>
+
+    <!-- Texto para recuperar la contraseña -->
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="@color/whatsapp_green"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

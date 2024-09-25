@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "714236576092",
+    "firebase_url": "https://sacalabici-565b8-default-rtdb.firebaseio.com",
+    "project_id": "sacalabici-565b8",
+    "storage_bucket": "sacalabici-565b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714236576092:android:669b5697168c6197e84199",
+        "android_client_info": {
+          "package_name": "com.itesm.firebaselogin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxLZ0XwjShXgAQ23tr8Q_NOPlAy6_45iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714236576092:android:9cdbbc77f45b43b8e84199",
+        "android_client_info": {
+          "package_name": "com.itesm.whatsapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxLZ0XwjShXgAQ23tr8Q_NOPlAy6_45iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
